@@ -12,6 +12,7 @@
 #include <errno.h>
 #include <string.h>
 #include <linux/fs.h>
+#include <sys/ioctl.h>
 
 static struct stat sb;
 
